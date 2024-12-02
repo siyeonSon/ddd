@@ -1,4 +1,4 @@
-[도메인 주도 개발 시작하기](https://www.hanbit.co.kr/store/books/look.php?p_code=B4309942517) 책을 읽고 학습한 내용입니다.
+[도메인 주도 개발 시작하기](https://www.hanbit.co.kr/store/books/look.php?p_code=B4309942517) 을 읽고 학습한 내용입니다.
 
 ![image](https://github.com/user-attachments/assets/9bfa1113-f770-42b4-87e0-9cfdaf012134)
 
@@ -15,3 +15,8 @@
 - 출고를 하면 배송지를 변경할 수 없다.
 - 출고 전에 주문을 취소할 수 있다.
 - 고객이 결제를 완료하기 전에는 상품을 준비하지 않는다.
+
+---
+
+## 정리
+- [1장 도메인 모델 시작하기](docs/1장%20도메인%20모델%20시작하기.md)
