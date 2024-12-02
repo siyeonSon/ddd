@@ -1,20 +1,11 @@
 package com.siyeonson.ddd.domain.order;
 
-import lombok.Getter;
-
-@Getter
 public class ShippingInfo {
-    private String receiverName;
-    private String receiverPhoneNumber;
-    private String shippingAddress1;
-    private String shippingAddress2;
-    private String shippingZipcode;
+    private Receiver receiver;
+    private Address address;
 
     public ShippingInfo(String receiverName, String receiverPhoneNumber, String shippingAddress1, String shippingAddress2, String shippingZipcode) {
-        this.receiverName = receiverName;
-        this.receiverPhoneNumber = receiverPhoneNumber;
-        this.shippingAddress1 = shippingAddress1;
-        this.shippingAddress2 = shippingAddress2;
-        this.shippingZipcode = shippingZipcode;
+        this.receiver = new Receiver(receiverName, receiverPhoneNumber);
+        this.address = new Address(shippingAddress1, shippingAddress2, shippingZipcode);
     }
 }
