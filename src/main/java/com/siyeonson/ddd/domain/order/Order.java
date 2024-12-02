@@ -3,6 +3,7 @@ package com.siyeonson.ddd.domain.order;
 import java.util.List;
 
 public class Order {
+    private OrderNo id;  // OrderNo 타입 자체로 id가 주문번호임을 알 수 있다
     private OrderState state;
     private List<OrderLine> orderLines;
     private ShippingInfo shippingInfo;
