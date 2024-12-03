@@ -1,4 +1,4 @@
-[도메인 주도 개발 시작하기](https://www.hanbit.co.kr/store/books/look.php?p_code=B4309942517) 을 읽고 학습한 내용입니다.
+[도메인 주도 개발 시작하기](https://www.hanbit.co.kr/store/books/look.php?p_code=B4309942517) 를 읽고 학습한 내용입니다.
 
 ![image](https://github.com/user-attachments/assets/9bfa1113-f770-42b4-87e0-9cfdaf012134)
 
@@ -20,3 +20,4 @@
 
 ## 정리
 - [1장 도메인 모델 시작하기](docs/1장%20도메인%20모델%20시작하기.md)
+- [2장 아키텍처 개요](docs/2장%20아키텍처%20개요.md)
